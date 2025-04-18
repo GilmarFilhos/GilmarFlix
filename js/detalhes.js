@@ -8,6 +8,16 @@ toggleLoading();
 }); 
 
 async function getMovie() {
-   //terminar linha 13 do pdf
+let movie;
+   //aqui vai a linha 14do pdf
 
-}
+   
+   .then(res=> res.json())
+   .then(res => movie = res)
+   .catch(err => console.error(err));
+   
+
+      //terminar linha 21 do pdf
+
+
+});
