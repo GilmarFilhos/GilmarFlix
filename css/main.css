@@ -2,9 +2,14 @@
 	margin:  0;
    padding:  0;
 }
+	linha 11 ao 13
 
 html, body {
-	linha 11 ao 13
+
+/*nome da font*/
+
+	font-optical-sizing:  auto;
+	background-color:  #000000;
 }
 
 body {
@@ -24,3 +29,5 @@ body {
 }
 
 /*linha 33 ao 43*/ 
+
+
