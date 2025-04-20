@@ -26,6 +26,6 @@
     background-size: contain;
     background-position: center;
     border-top-left-radius: var(--bs-border-radius-xxl)  !important;
-    border-top-right-radius: var(--bs-border-radius-xxl);
+    border-top-right-radius: var(--bs-border-radius-xxl) !important;
 
 }
