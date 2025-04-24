@@ -21,7 +21,7 @@ async function pesquisar() {
     }
 
     try {
-        const response = await fetch(`https://api.themoviedb.org/3/search/multi?query=${texto}&include_adult=false&language=pt-br&page=${page}`, options);
+        const response = await fetch(`https://api.themoviedb.org/3/search/multi?query=${texto}&include_adult=true&language=pt-br&page=${page}`, options);
         const pes = await response.json();
 
         exibirResultados(pes);
